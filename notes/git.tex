@@ -1,0 +1,23 @@
+#instructions for git
+
+#CREATE VIA HUB FROM COMMAND LINE
+git init
+git add --all
+git commit -m "first"
+hub create
+git branch -M main
+git push -u origin main
+ 
+OR hub create then git push -u origin HEAD
+
+
+
+#CREATE ON GIT HUB MANUALLY
+
+echo # system_utilities >> README.md
+git init
+git add README.md
+git commit -m first commit
+git branch -M main
+git remote add origin https://github.com/ulrikSebastienR/system_utilities.git
+git push -u origin main
