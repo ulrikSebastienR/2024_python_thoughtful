@@ -67,3 +67,4 @@ def lcm_array(a=[2,3,4]):
         if item == a[-1] and i%item==0:
             return i
 
+arr = [].extend(random.randint(1,100) for _ in range(5))
